@@ -17,8 +17,7 @@
 ### Again, each model returns two sets of estimates: one fit separately for
 ### each fold, another fit on the entire sample
 
-### Update: 2025-08-03: We're adding ML-type estimators to perform the 
-### nuisance function estimation. This was in response to a reviewer's request.
+### Note that this requires loading the "SuperLearner" package.
 
 estimate_ps <- function(data, ps, n_folds){
   
